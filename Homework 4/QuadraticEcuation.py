@@ -1,4 +1,4 @@
-class QuadraticEcuation:
+class QuadraticEquation:
     def __init__(self, a, b, c):
         self.__a = a 
         self.__b = b
@@ -41,4 +41,4 @@ class QuadraticEcuation:
         if self.getDiscriminant() == 0:
             print (self.getRoot1)
         if self.getDiscriminant() < 0:
-            print("The ecuation has no roots")
+            print("The equation has no roots")
